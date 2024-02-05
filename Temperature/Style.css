@@ -1,0 +1,121 @@
+/* Style.css */
+
+body{
+    
+    display: block;
+    margin: 80px;
+    padding: 30px;
+    background-size: cover; 
+    background-size:auto; 
+    background-image: url("https://res.cloudinary.com/dxly910uj/image/upload/v1707147454/Pngtree_simple_atmospheric_blue_temperature_needle_1145791_nfrqeh.jpg");
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background-size: 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+ #container {
+     padding: 20px 20px 20px 20px; 
+    max-width: 70px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} 
+
+#calTemp
+{
+   padding-bottom: 30%;
+   margin-inline: auto;
+   padding: 30px 30px 30px 30px;
+   display: block;
+   height: 60%;
+   width: 60%;
+   backdrop-filter: blur(15px);
+   background-color: rgba(69, 13, 160, 0.2);
+}
+
+form {
+    text-align: center;
+    height: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight:bolder;
+    color: #070303;
+}
+
+
+select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-image: url("https://res.cloudinary.com/dxly910uj/image/upload/v1707147454/Pngtree_simple_atmospheric_blue_temperature_needle_1145791_nfrqeh.jpg");
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* transition: border-color 0.3s, background-color 0.3s; */
+}
+input{
+ 
+ padding: 8px 8px 8px 8px;
+ width: 48%;
+ border-radius: 8px;
+ -webkit-animation: alternate-reverse;
+}
+
+/* input[type="text"]:focus,
+select:focus {
+    height: auto;
+    width:50%;
+    outline: none;
+    border-color: #3498db;
+    background-color: rgba(255, 255, 255, 1);
+}  */
+
+select {
+    appearance: none;
+     -webkit-appearance: none;
+    -moz-appearance: none; 
+     background: url('arrow.png') no-repeat right center;
+    background-size: 20px;
+}  
+
+button {
+
+    background-color: rgba(255,255,255,0.2);
+    padding: 9px 9px 9px 9px;
+    border-radius: 10%;
+
+}
+
+
+
+ #result {
+    padding: 15px,15px,15px,15px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display:inherit;
+    text-decoration: wavy;
+    text-transform:unset;
+    text-shadow: #070303;
+    font-weight: 600;
+} 
